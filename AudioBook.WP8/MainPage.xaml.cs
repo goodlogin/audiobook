@@ -17,7 +17,7 @@ namespace AudioBook.WP8
         public MainPage()
         {
             InitializeComponent();
-
+            //comment
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
         }
