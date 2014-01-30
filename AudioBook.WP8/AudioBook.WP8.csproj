@@ -93,8 +93,11 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\NavigationBar.xaml.cs">
+      <DependentUpon>NavigationBar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LocalizedStrings.cs" />
-    <Compile Include="Views\MainPage.xaml.cs">
+    <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -112,7 +115,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
-    <Page Include="Views\MainPage.xaml">
+    <Page Include="Controls\NavigationBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -133,24 +140,6 @@
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\Main Screen\background.png" />
-    <Content Include="Assets\Main Screen\btn1off.png" />
-    <Content Include="Assets\Main Screen\btn1on.png" />
-    <Content Include="Assets\Main Screen\btn2off.png" />
-    <Content Include="Assets\Main Screen\btn2on.png" />
-    <Content Include="Assets\Main Screen\btn3off.png" />
-    <Content Include="Assets\Main Screen\btn3on.png" />
-    <Content Include="Assets\Main Screen\btn4off.png" />
-    <Content Include="Assets\Main Screen\btn4on.png" />
-    <Content Include="Assets\Main Screen\btn5off.png" />
-    <Content Include="Assets\Main Screen\btn5on.png" />
-    <Content Include="Assets\Main Screen\frills.png" />
-    <Content Include="Assets\Main Screen\link1.png" />
-    <Content Include="Assets\Main Screen\link2.png" />
-    <Content Include="Assets\Main Screen\logo.png" />
-    <Content Include="Assets\Main Screen\window01.png" />
-    <Content Include="Assets\Main Screen\window02.png" />
-    <Content Include="Assets\Main Screen\window03.png" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
