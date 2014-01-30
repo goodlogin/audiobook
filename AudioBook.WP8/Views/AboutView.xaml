@@ -9,6 +9,7 @@
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
+    xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
     shell:SystemTray.IsVisible="True">
@@ -28,6 +29,7 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <telerikPrimitives:RadImageButton ButtonShape="Image" ButtonType="Custom" RestStateImageSource="/Assets/Tiles/IconicTileSmall.png" PressedStateImageSource="/Assets/Tiles/FlipCycleTileMedium.png" />
 
         </Grid>
     </Grid>
